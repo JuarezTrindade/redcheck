@@ -4,7 +4,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif ;
+   
 }
+
 .logo {
     text-align: center;
 }
@@ -81,15 +83,11 @@ label{
 p{
     text-align: center;
     color: #C7C7C7;
-	font-family: 'Roboto', sans serif;
-	font-size: 14px;
 }
 a#sign {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: bold;
-	font-family: 'Roboto', sans serif;
-	font-size: 14px;
 }
 .btm{
     background-color: #394047;
@@ -117,7 +115,7 @@ p#click{
 	bottom:20px;
 	right:50px;
 	background-color:#F5214D;
-	color:#C7C7C7;
+	color:#FFFFFF;
 	border-radius:50px;
 	text-align:center;
 }
@@ -175,3 +173,26 @@ p#click{
       padding-right: 30px;
       font: 14px 'Roboto', sans-serif ;
   }
+  @media (max-width: 767px) and (min-width: 0px){
+
+   body{
+       height: 700px;
+   }
+
+    .float{
+        
+        position: absolute;
+        width:50px;
+	    height:50px;
+	    background-color:#F5214D;
+	    color:#FFFFFF;
+	    border-radius:50px;
+        text-align:center;
+        margin-left: 50%;
+        margin-bottom: 2px;
+    }
+    
+    .float i.small.material-icons{
+        margin-top:15px;
+  }
+}

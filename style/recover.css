@@ -91,7 +91,7 @@ a{
 	bottom:20px;
 	right:50px;
 	background-color:#F5214D;
-	color:#C7C7C7;
+	color:#FFFFFF;
 	border-radius:50px;
 	text-align:center;
 }
@@ -99,3 +99,22 @@ a{
 .float i.small.material-icons{
 	margin-top:15px;
 }
+@media (max-width: 767px) and (min-width: 0px){
+
+    body{
+        height: 700px;
+    }
+ 
+     .float{
+         display: none;
+         position: absolute;
+         width:50px;
+         height:50px;
+         background-color:#F5214D;
+         color:#FFFFFF;
+         border-radius:50px;
+         text-align:center;
+         margin-left: 50%;
+         margin-bottom: 2px;
+     }
+    }
